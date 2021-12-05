@@ -1,4 +1,20 @@
 # Installation
 
-1. Visit [vlang.io](https://vlang.io) or [Github](https://github.com/vlang/v)
-2. Download or clone V and install
+1. Clone V
+   ```sh
+   git clone git@github.com:vlang/v.git
+   ```
+2. Run command in terminal
+   ```sh
+   cd v
+   make
+   v up
+   ```
+3. Run command in terminal
+   ```sh
+   # MacOS or Linux
+   sudo ./v symlink
+
+   # Window
+   .\v.exe symlink
+   ```
